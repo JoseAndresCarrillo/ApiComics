@@ -1,0 +1,22 @@
+{
+  "name": "comics",
+  "version": "1.0.0",
+  "description": "api-rest para app de comics",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jace",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
